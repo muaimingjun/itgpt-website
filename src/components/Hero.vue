@@ -5,12 +5,12 @@
       <!-- Add more stars or other animated elements here -->
     </div>
     <div class="container hero-content">
-      <h1 class="hero-title">AI智能体一站式开发平台</h1>
+      <h1 class="hero-title">AI 智能体一站式开发平台</h1>
       <p class="hero-subtitle">
-        从灵感到现实，一键构建、部署并扩展你的专属AI智能体。
+        从灵感到现实，一键构建、部署并扩展您的专属 AI 智能体。
       </p>
       <div class="hero-actions">
-        <a href="#" class="cta-button primary">立即开始</a>
+        <router-link to="/login" class="cta-button primary">立即开始</router-link>
         <a href="#features" class="cta-button secondary">探索特性</a>
       </div>
     </div>
@@ -18,7 +18,7 @@
 </template>
 
 <script setup>
-// No script logic needed for this component
+import { RouterLink } from 'vue-router';
 </script>
 
 <style scoped>

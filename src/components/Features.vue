@@ -2,7 +2,7 @@
   <section class="features" id="features">
     <div class="container">
       <h2 class="section-title">核心特性</h2>
-      <p class="section-subtitle">构建下一代AI应用所需的一切。</p>
+      <p class="section-subtitle">构建下一代 AI 应用所需的一切。</p>
       <div class="features-grid">
         <!-- Feature 1 -->
         <div class="feature-card">
@@ -24,7 +24,7 @@
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" /></svg>
             </div>
             <h3>可视化编排</h3>
-            <p>通过拖拽式界面构建复杂的AI工作流，无需编码。</p>
+            <p>通过拖拽式界面构建复杂的 AI 工作流，无需编码。</p>
           </div>
         </div>
         <!-- Feature 3 -->

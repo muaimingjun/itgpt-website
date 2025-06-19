@@ -2,10 +2,10 @@
   <footer class="footer">
     <div class="container footer-content">
       <div class="footer-links">
-        <a href="#">About</a>
-        <a href="#">Careers</a>
-        <a href="#">Contact</a>
-        <a href="#">Privacy Policy</a>
+        <a href="#">关于我们</a>
+        <a href="#">加入我们</a>
+        <a href="#">联系方式</a>
+        <a href="#">隐私政策</a>
       </div>
       <div class="social-links">
         <!-- Replace with actual social media icons -->
@@ -13,7 +13,7 @@
         <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M..."></path></svg></a>
         <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M..."></path></svg></a>
       </div>
-      <p class="copyright">© {{ new Date().getFullYear() }} ITGPT Inc. All rights reserved.</p>
+      <p class="copyright">© {{ new Date().getFullYear() }} ITGPT Inc. 保留所有权利。</p>
     </div>
   </footer>
 </template>

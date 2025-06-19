@@ -1,26 +1,29 @@
 <template>
   <header class="header">
     <div class="container">
-      <a href="#" class="logo">
+      <router-link to="/" class="logo">
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M12 2L2 7V17L12 22L22 17V7L12 2Z" stroke="white" stroke-width="2" stroke-linejoin="round"/>
           <path d="M2 7L12 12L22 7" stroke="white" stroke-width="2" stroke-linejoin="round"/>
           <path d="M12 12V22" stroke="white" stroke-width="2" stroke-linejoin="round"/>
         </svg>
         <span>ITGPT</span>
-      </a>
+      </router-link>
       <nav class="nav">
-        <a href="#features">Features</a>
-        <a href="#pricing">Pricing</a>
-        <a href="#faq">FAQ</a>
+        <a href="/#features">产品特性</a>
+        <a href="/#pricing">价格</a>
+        <a href="/#faq">常见问题</a>
       </nav>
-      <a href="#" class="cta-button">Get Started</a>
+      <div class="actions">
+        <router-link to="/login" class="nav-link">登录</router-link>
+        <router-link to="/register" class="cta-button">免费注册</router-link>
+      </div>
     </div>
   </header>
 </template>
 
 <script setup>
-// No script logic needed for this simple component
+import { RouterLink } from 'vue-router'
 </script>
 
 <style scoped>
@@ -98,6 +101,24 @@
 
 .nav a:hover::after {
   width: 100%;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.nav-link {
+  color: var(--color-text);
+  font-size: 1rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #FFFFFF;
 }
 
 .cta-button {

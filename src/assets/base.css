@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@600;700&display=swap');
+
 /* Define a modern, tech-focused color palette and base styles */
 :root {
   /* Core Palette */
@@ -56,6 +58,3 @@ a {
 a:hover {
   color: #4DA8FF;
 }
-
-/* Import Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@600;700&display=swap');
