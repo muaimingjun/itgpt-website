@@ -1,0 +1,9 @@
+# Ignore node_modules and local development files
+node_modules
+.DS_Store
+npm-debug.log
+.idea
+.vscode
+
+# Ignore build output, it will be generated in the container
+dist
