@@ -1,13 +1,13 @@
-# Progress
+# 进展
 
-## What's Working
-- The basic Vue.js project structure is set up and appears to be functional.
-- A set of UI components (`Header`, `Footer`, `Hero`, etc.) has been created, indicating that the foundational UI elements are in place.
-- The project is configured with Vite for development and building.
+## 正常工作的部分
+- 基础的 Vue.js 项目结构已经建立并且看起来功能正常。
+- 一套 UI 组件（`Header`、`Footer`、`Hero` 等）已经创建，表明基础的 UI 元素已经就位。
+- 项目已配置使用 Vite 进行开发和构建。
 
-## What Still Needs to be Built
-- Further development may include adding more complex business logic, interactivity, and potentially integrating with backend APIs.
-- Documentation for specific components and logic is likely needed.
+## 仍需构建的部分
+- 未来的开发可能包括增加更复杂的业务逻辑、交互性，以及可能与后端 API 的集成。
+- 可能需要为特定的组件和逻辑编写文档。
 
-## Progress Status
-The layout and typography have been optimized for better readability and responsiveness. The core UI is now more polished. The project is ready for the next phase of feature implementation or content addition.
+## 进展状态
+布局和排版已经过优化，以提高可读性和响应性。核心用户界面现在更加完善。项目已准备好进入下一阶段的功能实现或内容添加。

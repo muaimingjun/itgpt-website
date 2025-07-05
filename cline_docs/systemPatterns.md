@@ -1,13 +1,13 @@
-# System Patterns
+# 系统模式
 
-## How the System Is Built
-The system is constructed as a Single-Page Application (SPA) using the Vue.js framework. The project is managed and built using Vite, which provides a fast development server and optimized build process.
+## 系统构建方式
+该系统是使用 Vue.js 框架构建的单页面应用程序（SPA）。项目通过 Vite进行管理和构建，Vite 提供了快速的开发服务器和优化的构建流程。
 
-## Key Technology Decisions
-- **Vue.js:** Chosen as the core front-end framework for its component-based architecture, reactivity, and ease of use.
-- **Vite:** Selected as the build tool for its extremely fast Hot Module Replacement (HMR) and efficient production builds.
-- **Component-Based Architecture:** The UI is broken down into reusable, self-contained `.vue` components (e.g., `Header.vue`, `Footer.vue`, `Hero.vue`). This promotes modularity and maintainability.
-- **Standard Web Technologies:** The project relies on fundamental web technologies: HTML, CSS, and JavaScript (ES6+).
+## 关键技术决策
+- **Vue.js:** 被选为核心前端框架，因其基于组件的架构、响应式系统和易用性。
+- **Vite:** 被选为构建工具，因其极速的热模块替换（HMR）和高效的生产构建。
+- **基于组件的架构:** 用户界面被分解为可复用的、自包含的 `.vue` 组件（例如 `Header.vue`、`Footer.vue`、`Hero.vue`）。这促进了模块化和可维护性。
+- **标准 Web 技术:** 项目依赖于基础的 Web 技术：HTML、CSS 和 JavaScript (ES6+)。
 
-## Architectural Patterns
-The primary architectural pattern is **Component-Based Architecture**. The application's UI is composed of a tree of nested components, with `App.vue` serving as the root component. State management appears to be handled locally within components, as there is no evidence of a global state management library like Vuex or Pinia in the file structure.
+## 架构模式
+主要的架构模式是**基于组件的架构**。应用程序的用户界面由一个嵌套组件树构成，其中 `App.vue` 作为根组件。状态管理似乎是在组件内部局部处理的，因为文件结构中没有像 Vuex 或 Pinia 这样的全局状态管理库的迹象。

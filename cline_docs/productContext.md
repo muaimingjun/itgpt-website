@@ -1,10 +1,10 @@
-# Product Context
+# 产品背景
 
-## Why This Project Exists
-This project, "itgpt-website," exists to create a web presence for a product or service, likely related to "IT-GPT." It serves as the main informational and interactive hub for users.
+## 项目缘由
+本项目 "itgpt-website" 的存在是为了给一个产品或服务（很可能与 "IT-GPT" 相关）创建一个网络门户。它将作为用户获取信息和进行交互的主要中心。
 
-## What Problem It Solves
-It provides a centralized, accessible platform for users to find information, understand the features, and engage with the IT-GPT entity. It solves the problem of lacking a dedicated online space for product/service presentation.
+## 解决的问题
+它提供了一个集中的、易于访问的平台，让用户可以查找信息、了解功能并与 IT-GPT 实体互动。这解决了产品/服务缺乏专门在线展示空间的问题。
 
-## How It Should Run
-The project is a standard web application built with Vue.js and Vite. It should run as a responsive, single-page application (SPA) that is performant and user-friendly, accessible through any modern web browser. It will feature standard components like a header, a footer, and content sections detailing the product's features.
+## 运行方式
+该项目是一个使用 Vue.js 和 Vite 构建的标准 Web 应用程序。它应该作为一个响应式、性能优良且用户友好的单页面应用程序（SPA）运行，可通过任何现代网络浏览器访问。它将包含标准组件，如页眉、页脚以及详细介绍产品功能的内容部分。
